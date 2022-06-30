@@ -1,12 +1,17 @@
 # GitBook Introduction 使用教程
 
- [huawink的GitBook 地址]([huahuahuahuahuahua (huawink) (github.com)](https://github.com/huahuahuahuahuahua))
+<p align="left">
+<a href="https://github.com/huahuahuahuahuahua/gitbookTemplate/issues"><img src="https://img.shields.io/github/issues/huahuahuahuahuahua/gitbookTemplate" alt="issues"></a>
+<a href="https://github.com/huahuahuahuahuahua/gitbookTemplate/stargazers"><img src="https://img.shields.io/github/stars/huahuahuahuahuahua/gitbookTemplate" alt="stars"></a>
+<a href="https://github.com/huahuahuahuahuahua/gitbookTemplate/network/members"><img src="https://img.shields.io/github/forks/huahuahuahuahuahua/gitbookTemplate" alt="forks"></a>
+</p>
+[huawink 的 GitBook 地址]([huahuahuahuahuahua (huawink) (github.com)](https://github.com/huahuahuahuahuahua))
 
- [huawink的博客]([huawink (huahuahuahuahuahua.github.io)](https://huahuahuahuahuahua.github.io/huawink-/)) 
+[huawink 的博客]([huawink (huahuahuahuahuahua.github.io)](https://huahuahuahuahuahua.github.io/huawink-/))
 
 ## 背景
 
-由于最近有过多的md文件需要处理，所以急需一个简洁明了的文档进行处理。而gitbook可以满足我所需
+由于最近有过多的 md 文件需要处理，所以急需一个简洁明了的文档进行处理。而 gitbook 可以满足我所需
 
 ## GitBook 简介
 
@@ -107,14 +112,14 @@ function statFix (orig) {
 注释即可
 
 ```js
-  // fs.stat = statFix(fs.stat)
-  // fs.fstat = statFix(fs.fstat)
-  // fs.lstat = statFix(fs.lstat)
+// fs.stat = statFix(fs.stat)
+// fs.fstat = statFix(fs.fstat)
+// fs.lstat = statFix(fs.lstat)
 ```
 
 安装完再取消注释
 
-#### 
+####
 
 可以看到会创建 README.md 和 SUMMARY.md 这两个文件，README.md 应该不陌生，就是说明文档，而 SUMMARY.md 是书的章节目录
 
@@ -143,7 +148,7 @@ gitbook build //开启服务器。
 
 下面我们来详细介绍下 GitBook 目录结构及相关文件。
 
-## 目录结构tree
+## 目录结构 tree
 
 GitBook 基本的目录结构如下所示：
 
@@ -313,13 +318,9 @@ GitBook 基本的目录结构如下所示：
 
 ![](https://upload-images.jianshu.io/upload_images/1944467-e80d5e46997e5eb4)
 
-
-
 GitBook 有 [插件官网](https://links.jianshu.com/go?to=https%3A%2F%2Fplugins.gitbook.com%2F)，默认带有 5 个插件，highlight、search、sharing、font-settings、livereload
 
-
-
-如果要配置使用的插件可以在 book.json 文件中加入即可，比如我们添加plugin[github](https://links.jianshu.com/go?to=https%3A%2F%2Fplugins.gitbook.com%2Fplugin%2Fgithub)，在 book.json 中加入配置如下即可：
+如果要配置使用的插件可以在 book.json 文件中加入即可，比如我们添加 plugin[github](https://links.jianshu.com/go?to=https%3A%2F%2Fplugins.gitbook.com%2Fplugin%2Fgithub)，在 book.json 中加入配置如下即可：
 
 ```
 {
@@ -335,13 +336,7 @@ GitBook 有 [插件官网](https://links.jianshu.com/go?to=https%3A%2F%2Fplugins
 
 然后在终端输入 `gitbook install ./` 即可。
 
-
-
-或者你也可以使用我写的[winkcli]([winkcli-main - npm (npmjs.com)](https://www.npmjs.com/package/winkcli-main))来创建gitbook模板
-
-
-
-
+或者你也可以使用我写的[winkcli]([winkcli-main - npm (npmjs.com)](https://www.npmjs.com/package/winkcli-main))来创建 gitbook 模板
 
 ## 结语
 
