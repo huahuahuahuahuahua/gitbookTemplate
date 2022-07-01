@@ -1,0 +1,36 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook": "^3.2.3",
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-donate": "^1.0.2",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+    "gitbook-plugin-favicon": "^0.0.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-github-buttons": "^3.0.0",
+    "gitbook-plugin-sharing-plus": "^0.0.2",
+    "gitbook-plugin-splitter": "^0.0.8"
+  },
+  "scripts": {
+    "gitbook:serve": "gitbook serve",
+    "gitbook:build": "gitbook build",
+    "gitbook:install": "gitbook install ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huahuahuahuahuahua/gitbookTemplate.git"
+  },
+  "keywords": [],
+  "author": "{{ author }}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huahuahuahuahuahua/gitbookTemplate/issues"
+  },
+  "homepage": "https://github.com/huahuahuahuahuahua/gitbookTemplate#readme"
+}
