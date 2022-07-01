@@ -1,0 +1,36 @@
+{
+  "name": "gitbooktemplate",
+  "version": "1.0.0",
+  "description": "<p align=\"left\"> <a href=\"https://github.com/huahuahuahuahuahua/gitbookTemplate/issues\"><img src=\"https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7ac5f1ab9e51498fa4ebe41c4c2e5362~tplv-k3u1fbpfcp-zoom-1.image\" alt=\"issues\"></a> <a href=\"https://github.com/huahuahuahuahuahua/gitbookTemplate/stargazers\"><img src=\"https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d5435d9ba7f34816b4667cac8871d749~tplv-k3u1fbpfcp-zoom-1.image\" alt=\"stars\"></a> <a href=\"https://github.com/huahuahuahuahuahua/gitbookTemplate/network/members\"><img src=\"https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2077e155bb8748c9a2dba0317bffa621~tplv-k3u1fbpfcp-zoom-1.image\" alt=\"forks\"></a> </p>",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook": "^3.2.3",
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-donate": "^1.0.2",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+    "gitbook-plugin-favicon": "^0.0.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-github-buttons": "^3.0.0",
+    "gitbook-plugin-sharing-plus": "^0.0.2",
+    "gitbook-plugin-splitter": "^0.0.8"
+  },
+  "scripts": {
+    "gitbook:serve": "gitbook serve",
+    "gitbook:build": "gitbook build",
+    "gitbook:install": "gitbook install ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huahuahuahuahuahua/gitbookTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huahuahuahuahuahua/gitbookTemplate/issues"
+  },
+  "homepage": "https://github.com/huahuahuahuahuahua/gitbookTemplate#readme"
+}

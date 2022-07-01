@@ -1,13 +1,14 @@
-# GitBook Introduction 使用教程
+# GitBook Introduction 教程
 
 <p align="left">
-<a href="https://github.com/huahuahuahuahuahua/gitbookTemplate/issues"><img src="https://img.shields.io/github/issues/huahuahuahuahuahua/gitbookTemplate" alt="issues"></a>
-<a href="https://github.com/huahuahuahuahuahua/gitbookTemplate/stargazers"><img src="https://img.shields.io/github/stars/huahuahuahuahuahua/gitbookTemplate" alt="stars"></a>
-<a href="https://github.com/huahuahuahuahuahua/gitbookTemplate/network/members"><img src="https://img.shields.io/github/forks/huahuahuahuahuahua/gitbookTemplate" alt="forks"></a>
+<a href="https://github.com/huahuahuahuahuahua/gitbookTemplate/issues"><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7ac5f1ab9e51498fa4ebe41c4c2e5362~tplv-k3u1fbpfcp-zoom-1.image" alt="issues"></a>
+<a href="https://github.com/huahuahuahuahuahua/gitbookTemplate/stargazers"><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d5435d9ba7f34816b4667cac8871d749~tplv-k3u1fbpfcp-zoom-1.image" alt="stars"></a>
+<a href="https://github.com/huahuahuahuahuahua/gitbookTemplate/network/members"><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2077e155bb8748c9a2dba0317bffa621~tplv-k3u1fbpfcp-zoom-1.image" alt="forks"></a>
 </p>
-[huawink 的 GitBook 地址]([huahuahuahuahuahua (huawink) (github.com)](https://github.com/huahuahuahuahuahua))
 
-[huawink 的博客]([huawink (huahuahuahuahuahua.github.io)](https://huahuahuahuahuahua.github.io/huawink-/))
+[huawink 的 GitBook 地址(github.com)](https://github.com/huahuahuahuahuahua)
+
+[huawink 的博客 (huahuahuahuahuahua.github.io)](https://huahuahuahuahuahua.github.io/huawink-/)
 
 ## 背景
 
@@ -78,7 +79,7 @@ info: initialization is finished
 ```
 
 但是产生了如下的报错：
-![安装gitbook的一些问题gitbook init和if (cb) cb.apply(this, ar](https://images1.tqwba.com/20200906/1etat3qqltt.png)
+![安装gitbook的一些问题gitbook init和if (cb) cb.apply(this, ar](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/63f1727238b8404d976a9e9dc6528167~tplv-k3u1fbpfcp-zoom-1.image)
 产生这个报错的原因在于，nodejs 的版本不对，不支持这个 gitbook.
 有两个解决办法：
 **一，切换 nodejs 的版本：**
@@ -123,7 +124,7 @@ function statFix (orig) {
 
 可以看到会创建 README.md 和 SUMMARY.md 这两个文件，README.md 应该不陌生，就是说明文档，而 SUMMARY.md 是书的章节目录
 
-![](https://upload-images.jianshu.io/upload_images/20760577-441ec8985e5116ab?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/568ba92c5e9a4b6d86cc923173e4ef10~tplv-k3u1fbpfcp-zoom-1.image)
 
 其默认内容如下所示：
 
@@ -138,7 +139,7 @@ function statFix (orig) {
 
 效果如下所示：
 
-![](https://upload-images.jianshu.io/upload_images/1944467-80941aa796f964d9)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b99dc80a4caf4f9b8df8a5ade293b1ab~tplv-k3u1fbpfcp-zoom-1.image)
 
 运行该命令后会在书籍的文件夹中生成一个 `_book` 文件夹, 里面的内容即为生成的 html 文件，我们可以使用下面命令来生成网页而不开启服务器。
 
@@ -300,7 +301,7 @@ GitBook 基本的目录结构如下所示：
 
 这个配置对应的目录结构如下所示:
 
-![](https://upload-images.jianshu.io/upload_images/1944467-de97699c5919469e)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e37fb5b8584d4a14b7e973fda73bc548~tplv-k3u1fbpfcp-zoom-1.image)
 
 我们通过使用 `标题` 或者 `水平分割线` 将 GitBook 分为几个不同的部分，如下所示：
 
@@ -316,7 +317,7 @@ GitBook 基本的目录结构如下所示：
 
 这个配置对应的目录结构如下所示:
 
-![](https://upload-images.jianshu.io/upload_images/1944467-e80d5e46997e5eb4)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/97c5459f38834148ba7f2a897c24e1a1~tplv-k3u1fbpfcp-zoom-1.image)
 
 GitBook 有 [插件官网](https://links.jianshu.com/go?to=https%3A%2F%2Fplugins.gitbook.com%2F)，默认带有 5 个插件，highlight、search、sharing、font-settings、livereload
 
@@ -336,8 +337,13 @@ GitBook 有 [插件官网](https://links.jianshu.com/go?to=https%3A%2F%2Fplugins
 
 然后在终端输入 `gitbook install ./` 即可。
 
-或者你也可以使用我写的[winkcli]([winkcli-main - npm (npmjs.com)](https://www.npmjs.com/package/winkcli-main))来创建 gitbook 模板
+或者你也可以使用我写的[winkcli-main - npm (npmjs.com)](https://www.npmjs.com/package/winkcli-main)来创建 gitbook 模板
+
+```shell
+npm install -g winkcli
+winkcli create <你的项目名称>
+```
 
 ## 结语
 
-这是我对 GitBook 使用的总结
+这是我对 GitBook 使用的总结，欢迎评论~
