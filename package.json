@@ -1,7 +1,7 @@
 {
-  "name": "gitbooktemplate",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "<p align=\"left\"> <a href=\"https://github.com/huahuahuahuahuahua/gitbookTemplate/issues\"><img src=\"https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7ac5f1ab9e51498fa4ebe41c4c2e5362~tplv-k3u1fbpfcp-zoom-1.image\" alt=\"issues\"></a> <a href=\"https://github.com/huahuahuahuahuahua/gitbookTemplate/stargazers\"><img src=\"https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d5435d9ba7f34816b4667cac8871d749~tplv-k3u1fbpfcp-zoom-1.image\" alt=\"stars\"></a> <a href=\"https://github.com/huahuahuahuahuahua/gitbookTemplate/network/members\"><img src=\"https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2077e155bb8748c9a2dba0317bffa621~tplv-k3u1fbpfcp-zoom-1.image\" alt=\"forks\"></a> </p>",
+  "description": "{{ description }}",
   "main": "index.js",
   "dependencies": {
     "gitbook": "^3.2.3",
@@ -27,8 +27,8 @@
     "url": "git+https://github.com/huahuahuahuahuahua/gitbookTemplate.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "{{ author }}",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/huahuahuahuahuahua/gitbookTemplate/issues"
   },
